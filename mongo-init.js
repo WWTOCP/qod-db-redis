@@ -1,9 +1,9 @@
-var dbName = process.env.MONGO_INITDB_DATABASE
+const fs = require('fs');
 
-var db = db.getSiblingDB(dbName);
+const quotes = JSON.parse(fs.readFileSync('/docker-entrypoint-initdb.d/quotes.json', 'utf8'));
 
-var quotes = cat('/docker-entrypoint-initdb.d/quotes.json');
+const dbName = process.env.MONGO_INITDB_DATABASE;
 
-var quotesArray = JSON.parse(quotes);
+const db = connect(`mongodb://localhost:27017/${dbName}`);
 
-db.quotes.insertMany(quotesArray);
+db.quotes.insertMany(quotes);
