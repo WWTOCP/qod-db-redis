@@ -2,7 +2,7 @@
 Quote of the Day database
 
 ### Ports
-This deployment opens up database access for MongoDB on port `27017`. Please set the service for this deploymemt to use port 3306, which is also the default used by the qod-api deployment to access this database.
+This deployment opens up database access for MongoDB on port `27017`. Please set the service for this deploymemt to use port 27017, which is also the default used by the qod-api deployment to access this database.
 
 ### Notes
 * Works with mongo docker image
