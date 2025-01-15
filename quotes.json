@@ -1,0 +1,52 @@
+[
+    {
+      "text": "Life is like riding a bicycle. To keep your balance you must keep moving.",
+      "author": "Albert Einstein",
+      "genre": "Philosophy"
+    },
+    {
+      "text": "If I have seen further it is by standing on the shoulders of Giants.",
+      "author": "Isaac Newton",
+      "genre": "Science"
+    },
+    {
+      "text": "Do or do not. There is no try.",
+      "author": "Yoda",
+      "genre": "Motivation"
+    },
+    {
+      "text": "It does not matter how slowly you go as long as you do not stop.",
+      "author": "Confucius",
+      "genre": "Motivation"
+    },
+    {
+      "text": "The only true wisdom is in knowing you know nothing.",
+      "author": "Socrates",
+      "genre": "Philosophy"
+    },
+    {
+      "text": "Be the change that you wish to see in the world.",
+      "author": "Mahatma Gandhi",
+      "genre": "Peace"
+    },
+    {
+      "text": "It always seems impossible until it is done.",
+      "author": "Nelson Mandela",
+      "genre": "Leadership"
+    },
+    {
+      "text": "I have a dream that one day this nation will rise up and live out the true meaning of its creed.",
+      "author": "Martin Luther King Jr.",
+      "genre": "Justice"
+    },
+    {
+      "text": "Spread love everywhere you go. Let no one ever come to you without leaving happier.",
+      "author": "Mother Teresa",
+      "genre": "Compassion"
+    },
+    {
+      "text": "To be, or not to be, that is the question.",
+      "author": "William Shakespeare",
+      "genre": "Literature"
+    }
+]
