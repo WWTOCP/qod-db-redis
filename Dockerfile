@@ -1,4 +1,4 @@
-FROM mongo:latest
+FROM mongo:8.0.4
 
 ENV MONGO_INITDB_ROOT_USERNAME=user \
     MONGO_INITDB_ROOT_PASSWORD=pass \
