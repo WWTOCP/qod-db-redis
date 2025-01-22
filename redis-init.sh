@@ -1,6 +1,6 @@
 #!/bin/bash
 
-QUOTES_FILE="/data/quotes.json"
+QUOTES_FILE="/docker-entrypoint-initdb.d/quotes.json"
 
 # import quotes from the quotes.json file into Redis
 index=1
