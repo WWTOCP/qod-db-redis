@@ -9,7 +9,8 @@ COPY quotes.json /docker-entrypoint-initdb.d/
 
 # set permissions to allow users in root group to access in built image
 RUN chgrp -R 0 /docker-entrypoint-initdb.d && \
-    chmod -R g=u /docker-entrypoint-initdb.d
+    chmod -R g=u /docker-entrypoint-initdb.d && \
+    chmod +x /docker-entrypoint-initdb.d/redis-init.sh
 
 # default port for Redis
 EXPOSE 6379
