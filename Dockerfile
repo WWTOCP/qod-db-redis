@@ -11,4 +11,4 @@ COPY quotes.json /docker-entrypoint-initdb.d/
 EXPOSE 6379
 
 # execute initialization script
-CMD ["sh", "/docker-entrypoint-initdb.d/redis-init.sh"]
+CMD ["/docker-entrypoint-initdb.d/redis-init.sh"]
