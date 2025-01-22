@@ -1,5 +1,11 @@
 FROM redis:7.4.2
 
+# install jq
+USER root
+RUN apt-get update && \
+    apt-get install -y jq && \
+    rm -rf /var/lib/apt/lists/*
+
 # copy init script into designated location from where 
 # .sh and .js scripts will be automatically run during initialization
 COPY redis-init.sh /docker-entrypoint-initdb.d/
