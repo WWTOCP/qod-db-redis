@@ -9,3 +9,6 @@ COPY quotes.json /docker-entrypoint-initdb.d/
 
 # default port for Redis
 EXPOSE 6379
+
+# execute initialization script
+CMD ["sh", "/docker-entrypoint-initdb.d/redis-init.sh"]
